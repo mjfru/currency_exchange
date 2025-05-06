@@ -18,7 +18,7 @@ const calculate = () => {
 			// console.log(data);
 			const selectedRate = data.rates[currencyTwo];
 			// console.log(rate);
-			rate.innerText = `1 ${currencyOne} = ${selectedRate} ${currencyTwo}`;
+			rate.innerText = `1 ${currencyOne} = ${selectedRate.toFixed(4)} ${currencyTwo}`;
 			amountElementTwo.value = (amountElementOne.value * selectedRate).toFixed(
 				2
 			);
