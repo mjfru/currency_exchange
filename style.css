@@ -1,7 +1,7 @@
 :root {
 	--primary-color: #42b69d;
 	--primary-font: "Quicksand", sans-serif;
-  --link-color: #caa378;
+	--link-color: #caa378;
 }
 
 * {
@@ -88,7 +88,7 @@ p {
 	font-size: 20px;
 	font-family: monospace;
 	text-align: right;
-  padding-right: 10px;
+	padding-right: 10px;
 	border: 2px solid black;
 	border-radius: 5px;
 	width: 40%;
@@ -124,69 +124,69 @@ footer {
 }
 
 .footer-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-links a {
-  font-family: monospace;
-  margin-right: 20px;
-  color: var(--link-color);
+	font-family: monospace;
+	margin-right: 20px;
+	color: var(--link-color);
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
+	h1 {
+		font-size: 24px;
+	}
 
-  p {
-    font-size: 14px;
-  }
+	p {
+		font-size: 14px;
+	}
 
 	.currency input {
 		width: 200px;
 	}
 
-  .money-img {
-    width: 150px;
-  }
+	.money-img {
+		width: 150px;
+	}
 
-  .currency {
-    padding: 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .currency select {
-    width: 50%;
-    height: 5vh;
-    padding: 6px 20px 6px 10px;
-    font-size: 12px;
-  }
-  
-  .currency input {
-    font-size: 14px;
-    width: 40%;
-    height: 5vh;
-  }
+	.currency {
+		padding: 40px 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 
-  .rate {
-    font-size: 14px;
-    padding: 0 10px;
-    font-family: monospace;
-    font-weight: bold;
-    margin-left: 5rem;
-  }
+	.currency select {
+		width: 50%;
+		height: 5vh;
+		padding: 6px 20px 6px 10px;
+		font-size: 12px;
+	}
 
-  footer {
-    margin-top: 1rem;
-    width: 75%;
-    text-align: center;
-  }
+	.currency input {
+		font-size: 14px;
+		width: 40%;
+		height: 5vh;
+	}
 
-  footer h2 {
-    font-size: 14px;
-  }
+	.rate {
+		font-size: 14px;
+		padding: 0 10px;
+		font-family: monospace;
+		font-weight: bold;
+		margin-left: 5rem;
+	}
+
+	footer {
+		margin-top: 1rem;
+		width: 75%;
+		text-align: center;
+	}
+
+	footer h2 {
+		font-size: 14px;
+	}
 }
