@@ -31,6 +31,10 @@ const getYear = () => {
 	currentYear.innerText = year;
 };
 
+const switchDisplayMode = () => {
+  return;
+};
+
 //* Event Listeners:
 currencyElementOne.addEventListener("change", calculate);
 currencyElementTwo.addEventListener("change", calculate);
